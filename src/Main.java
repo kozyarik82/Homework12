@@ -6,6 +6,11 @@ public class Main {
         Book theBrothersKaramazov = new Book(" The Brothers Karamazov ", fyodorDostoyevsky, 2004);
         madameBovary.setYearPublication(2001);
         System.out.println(madameBovary.getYearPublication());
+        System.out.println(gustaveFlaubert);
+        System.out.println(madameBovary);
+        System.out.println(gustaveFlaubert.equals(fyodorDostoyevsky));
+        System.out.println(madameBovary.equals(theBrothersKaramazov));
 
     }
+
 }
